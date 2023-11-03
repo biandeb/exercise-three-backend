@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-3",
+  "version": "1.0.0",
+  "description": "Este es el ejercicio número tres del trabajo práctico de backend de Rolling Code School",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "rolling",
+    "code",
+    "school",
+    "practical",
+    "work"
+  ],
+  "author": "Deblinger Bianca",
+  "license": "ISC"
+}
