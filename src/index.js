@@ -6,6 +6,9 @@ import cors from 'cors';
 
 import colorRouter from './routes/colorRoutes.js';
 
+// Conexión con la base de datos
+import './database/database.js';
+
 // Iniciar la aplicación
 const app = express();
 
@@ -22,5 +25,5 @@ app.use(colorRouter);
 
 // Iniciar loop del servidor
 app.listen(PORT, () => {
-    console.log(`El servidor se está ejecutando en el puerto ${PORT}`);
+  console.log(`El servidor se está ejecutando en el puerto ${PORT}`);
 });

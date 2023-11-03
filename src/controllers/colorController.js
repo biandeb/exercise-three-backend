@@ -1,3 +1,3 @@
-export const getColors = (req, res) => {
-    res.status(201).json({})
-}
+export const getColors = (_, res) => {
+  res.status(201).json({});
+};
