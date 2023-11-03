@@ -4,6 +4,8 @@ import morgan from 'morgan';
 
 import cors from 'cors';
 
+import colorRouter from './routes/colorRoutes.js';
+
 // Iniciar la aplicación
 const app = express();
 
@@ -16,6 +18,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
+app.use(colorRouter);
 
 // Iniciar loop del servidor
 app.listen(PORT, () => {
